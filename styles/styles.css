@@ -1,22 +1,4 @@
-.nav1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 20px;
-}
-.nav2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 400px;
-}
-.nav2 a{
-    text-decoration: none;
-    color: black;
-}
-.nav1 a:hover{
-    color: brown;cursor: pointer;
-}
+
 header {
     position: sticky;
     top:0%;
@@ -24,39 +6,28 @@ header {
     background-color: bisque;
     height: 40px;
 }
-#head{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    position: relative;
-    left:100px;
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-#head:hover{
-    color: brown; cursor: pointer;
-}
+
 .im{
-    position: relative;
-    left:30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 #text{
     font-size: 40px;
     background-color: white;
     position: absolute;
     left:550px;
-    bottom:100px;
+    bottom:120px;
 }
 
 .firstp {
     display:flex;
     flex-direction: row;
-    width:600px;
+    max-width:500px;
+    width: 100%;
     height:280px;
     background-color: rgb(254, 240, 222);
-    position: relative;
-    left:10px;
+    margin-left: 10px;
+   
 }
 #textsize5{
     font-size: 20px;
@@ -64,21 +35,21 @@ header {
 }
 
 
-.textp{display:flex;
-flex-direction: column;
-align-items: center;
-width: 300px;
-position: relative;
-left: 10px;
-font-size: 18px;
+.textp{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    font-size: 18px;
 }
 .firstp1 {display:flex;
     flex-direction: row;
-    width:600px;
+    max-width:500px;
+    width: 100%;
     height:280px;
     background-color: rgb(254, 240, 222);
-    position: relative;
-    left:90px
+    margin-left: 30px;
     }
     
     #textsize {
@@ -86,40 +57,42 @@ font-size: 18px;
         font-weight:bold;
     }
 
-    .textp1{display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    position: relative;
-    left: 10px;
-    font-size: 18px;
+    .textp1{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        width: 100%;
+        font-size: 18px;
     }
-    .post {display: flex;
-    flex-direction: row;
+    .post {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
   
 }
-.firstp2 {display:flex;
+.firstp2 {
+    display:flex;
     flex-direction: row;
-    
-    width:600px;
+    max-width:515px;
+    width: 100%;
     height:280px;
     background-color: rgb(254, 240, 222);
-    position: relative;
-    left:350px;
-    top:10px
+    margin-left: 250px; 
+    margin-top: 20px;
     }
     #textsize2 {
         font-size: 20px;
         font-weight: bold;
 
     }
-    .textp2{display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    position: relative;
-    left: 10px;
-    font-size: 18px;
+    .textp2{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        width: 100%;
+        font-size: 18px;
     }
 #allpost{text-align: center;
 font-size: 20px;
@@ -148,7 +121,8 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 900px;
+    max-width: 900px;
+    width: ;
     position: absolute;
     left:250px;
 }
@@ -163,6 +137,7 @@ input {
     font-size: 25px;
     font-family: fantasy;
     color: rgb(172, 146, 114);
+    margin-bottom: 20px;
 
 }
 
@@ -174,7 +149,7 @@ input {
 #submit {
     position: relative;
     left:100px;
-    bottom:-10px
+    bottom:-50px;
 }
 
 .error-text {
@@ -192,7 +167,8 @@ p::selection{color: rgb(243, 182, 103);}
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:400px;
+    max-width:400px;
+    width: 100%;
      font-size:18px;
     }
     #textsize4{
@@ -214,10 +190,9 @@ p::selection{color: rgb(243, 182, 103);}
    .blog {display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    position: relative;
-    left:30px;
-    top:50px;}
+   
+    width: 100%;
+    }
     #textsize3{
         font-size: 20px;
         font-weight: bold;
@@ -229,51 +204,62 @@ p::selection{color: rgb(243, 182, 103);}
         position: relative;
         left:300px;
         top:150px;
-       padding-left:7px;}
-       #textsize6{
+        padding-left:7px;} 
+
+#textsize6{
         font-size: 20px;
         font-weight: bold;
+        width:300px
        }
-.sideblog {display: flex;
+.sideblog {
+    display: flex;
     flex-direction:row;
     justify-content: space-between;
-    width:700px;
+    max-width:500px;
+    width: 100%;
     margin-top: 150px;
-}
+} 
 
-.blog2 {display: flex;
+.blog2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    width:300px;
+    max-width:300px;
+    width: 100%;
     position: relative;
     left:700px;
     bottom:100px;
-}
-    #textsize7{
+} 
+
+#textsize7{
         font-size: 20px;
         font-weight: bold;
     }
 
-#text2 { border-left: solid brown 3px;
-padding: 5px;}
-#text1 { border-left: solid brown 3px;
-    padding: 5px;}
-    #textsizefoot{
+#text2 { 
+    border-left: solid brown 3px;
+    padding: 5px;
+}
+#text1 {
+     border-left: solid brown 3px;
+    padding: 5px;
+}
+#textsizefoot{
         font-size: 25px;
         font-weight: bold;
     }
 
-    html {
+html {
        scroll-behavior:smooth;
     }
 
 
-    .title::before {
+.title::before {
         content: '\2193';
         }
      
      
-     .container {
+.container {
         max-width:400px ;
         width: 100%;
         margin-bottom: 10px;
@@ -281,30 +267,30 @@ padding: 5px;}
         text-align: center;
          
         }
-     .description {
+.description {
         width: 100%;
         height: 0;
         overflow: hidden;
         }
      
      
-     .container.active .description {
+.container.active .description {
         height: 110px;
         transition: all 2s;
         font-size: 17px;
         background-color: bisque
      }
        
-     .container.active .title::before {
+.container.active .title::before {
         content: '\2191';
      }
 
-     .accordion {
+.accordion {
         position: relative;
         bottom:150px
      }
 
-     #up {
+#up {
         position: absolute;
         left:95%;
         font-size: 25px;
@@ -314,7 +300,7 @@ padding: 5px;}
        
 
     
-     .notification {
+.notification {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -327,13 +313,13 @@ padding: 5px;}
      }
      
      
-     .buttons button{
+.buttons button{
         margin: 5px;
         padding: 5px;
         cursor: pointer;
      }
 
-     #advicehead {
+#advicehead {
         font-size: 20px;
         font-family: fantasy;
         color: rgb(172, 146, 114);
@@ -341,7 +327,8 @@ padding: 5px;}
 
    
 .splide__slide img {
-    width:600px;
+    max-width:600px;
+    width: 100%;
     height:400px;
     object-fit: cover;
     object-fit: cover;
@@ -352,7 +339,8 @@ padding: 5px;}
  
  
  .splide {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
   height: 400px;
  }
 
@@ -405,6 +393,9 @@ padding: 5px;}
     cursor: pointer;
     font-size: 25px;
     font-family: "Dancing Script", cursive;
+  }
+  #cookies {
+    width: 100%;
   }
   @media (max-width: 800px) {
     nav .mainMenu {

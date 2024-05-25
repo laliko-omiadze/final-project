@@ -14,38 +14,38 @@ accordion.forEach(function(item) {
 
 //scroller
 
-import {scrollTo} from './scroll.js';
+import {scrollTo} from '../JS/scroll.js';
 
 scrollTo();
 
 
 //validation
 
-import {form} from './validation.js';
+import {form} from '../JS/validation.js';
 
 form ();
 
 
-import { passwordvalidation } from './validation.js';
+import { passwordvalidation } from '../JS/validation.js';
 
 
 passwordvalidation();
 
 
-import {emailvalidation} from './validation.js';
+import {emailvalidation} from '../JS/validation.js';
 
 
 emailvalidation();
 
 
-import { showpassword } from './validation.js';
+import { showpassword } from '../JS/validation.js';
 
 
 showpassword ();
 
 //cookies
 
-import { loginfo } from './cookies.js';
+import { loginfo } from '../JS/cookies.js';
 
 loginfo();
 
